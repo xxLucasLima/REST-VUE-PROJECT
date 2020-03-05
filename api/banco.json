@@ -1,18 +1,52 @@
 {
+<<<<<<< HEAD
+=======
+  "professores": [
+    {
+      "id": 1,
+      "nome": "vicinius",
+      "sobrenome": "paulo"
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "sobrenome": "Julia"
+    }
+  ],
+>>>>>>> Alterações em aluno e professor
   "alunos": [
     {
       "id": 1,
       "nome": "marcos",
+<<<<<<< HEAD
       "sobrenome": "Pinheiro"
+=======
+      "sobrenome": "Pinheiro",
+      "professor": {
+        "id": 2,
+        "nome": "Maria",
+        "sobrenome": "Julia"
+      }
+>>>>>>> Alterações em aluno e professor
     },
     {
       "id": 2,
       "nome": "Lucas",
+<<<<<<< HEAD
       "sobrenome": "Lima"
+=======
+      "sobrenome": "Lima",
+      "professor": {
+        "id": 1,
+        "nome": "vicinius",
+        "sobrenome": "paulo"
+      }
+>>>>>>> Alterações em aluno e professor
     },
     {
       "id": 4,
       "nome": "Anna",
+<<<<<<< HEAD
       "sobrenome": "Karoline"
     },
     {
@@ -23,6 +57,43 @@
       "nome": "asdasd",
       "sobrenome": " ",
       "id": 6
+=======
+      "sobrenome": "Karoline",
+      "professor": {
+        "id": 1,
+        "nome": "vicinius",
+        "sobrenome": "paulo"
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Deus",
+      "sobrenome": "Silva",
+      "professor": {
+        "id": 1,
+        "nome": "vicinius",
+        "sobrenome": "paulo"
+      }
+    },
+    {
+      "id": 6,
+      "sobrenome": "Quen ",
+      "nome": "asdasd",
+      "professor": {
+        "id": 1,
+        "nome": "vicinius",
+        "sobrenome": "paulo"
+      }
+    },
+    {
+      "nome": "Neymarzinho",
+      "sobrenome": " ",
+      "professor": {
+        "id": 1,
+        "nome": "vicinius"
+      },
+      "id": 7
+>>>>>>> Alterações em aluno e professor
     }
   ]
 }
