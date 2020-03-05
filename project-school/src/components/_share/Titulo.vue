@@ -1,22 +1,4 @@
 <template>
-<<<<<<< HEAD
-    <div>
-        <h1>{{texto}}</h1>
-    </div>
-</template>
-
-<script>
-    export default {
-        props:{
-            texto: String
-        }
-    }
-</script>
-
-<style lang="scss" scoped>
-
-</style>
-=======
   <div>
     <div style="display:flex; width: 50%">
       <h1>{{ texto }}</h1>
@@ -55,4 +37,3 @@ export default {
   background-color: rgb(199, 199, 199);
 }
 </style>
->>>>>>> Alterações em aluno e professor
