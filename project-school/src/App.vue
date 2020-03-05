@@ -1,31 +1,16 @@
 <template>
   <div id="app">
-<<<<<<< HEAD
     <Alunos/>
-=======
-    <Nav />
-    <div class="margemPrincipal">
-      <router-view :key="$route.fullPath"></router-view>
-    </div>
->>>>>>> Alterações em aluno e professor
   </div>
 </template>
 
 <script>
-<<<<<<< HEAD
 import Alunos from './components/Aluno/Alunos.vue'
-=======
-import Nav from './components/_nav/Nav.vue'
->>>>>>> Alterações em aluno e professor
 
 export default {
   name: 'app',
   components: {
-<<<<<<< HEAD
     Alunos
-=======
-    Nav
->>>>>>> Alterações em aluno e professor
   }
 }
 </script>
@@ -43,13 +28,7 @@ body, html {
   margin: 0;
   height: 100%;
 }
-#app {
-<<<<<<< HEAD
 
-=======
-  width: 100%;
->>>>>>> Alterações em aluno e professor
-}
 .btn{
   background-color: #fa4430;
   border: 1px solid black;
@@ -70,16 +49,6 @@ body, html {
   border-bottom: 1px solid black;
 
 }
-
-<<<<<<< HEAD
-=======
-.margemPrincipal{
-
-  width: 50%;
-  margin: auto;
-}
-
->>>>>>> Alterações em aluno e professor
 table {
   margin: 0px;
   padding: 0px;
