@@ -1,0 +1,82 @@
+{
+  "professores": [
+    {
+      "id": 1,
+      "nome": "vicinius",
+      "sobrenome": "paulo"
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "sobrenome": "Julia"
+    }
+  ],
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "marcos",
+      "dataNasc": " ",
+      "sobrenome": "Pinheiro",
+      "professor": {
+        "id": 2,
+        "nome": "Maria",
+        "sobrenome": "Julia"
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Lucas",
+      "sobrenome": "Lima",
+      "dataNasc": " ",
+      "professor": {
+        "id": 1,
+        "nome": "vicinius",
+        "sobrenome": "paulo"
+      }
+    },
+    {
+      "id": 4,
+      "nome": "Anna",
+      "sobrenome": "Karoline",
+      "dataNasc": " ",
+      "professor": {
+        "id": 1,
+        "nome": "vicinius",
+        "sobrenome": "paulo"
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Deus",
+      "sobrenome": "Silva",
+      "dataNasc": " ",
+      "professor": {
+        "id": 1,
+        "nome": "vicinius",
+        "sobrenome": "paulo"
+      }
+    },
+    {
+      "id": 6,
+      "nome": "asdasd",
+      "dataNasc": "10/20/2000",
+      "sobrenome": "Quen",
+      "professor": {
+        "id": 1,
+        "nome": "vicinius",
+        "sobrenome": "paulo"
+      }
+    },
+    {
+      "id": 7,
+      "nome": "Neymarzinho",
+      "sobrenome": "Do Freefire",
+      "dataNasc": " ",
+      "professor": {
+        "id": 1,
+        "nome": "vicinius",
+        "sobrenome": "paulo"
+      }
+    }
+  ]
+}
