@@ -50,12 +50,12 @@ namespace project_school_api.Controllers
             }
         }
 
-        [HttpGet("ByProfessor/{professorId}")]
-        public async Task<IActionResult> GetByProfessorId(int professorId)
+        [HttpGet("ByProfessor/{ProfessorId}")]
+        public async Task<IActionResult> GetByProfessorId(int ProfessorId)
         {
             try
             {
-                var result = await _repo.GetAlunoAsyncById(professorId, true);
+                var result = await _repo.GetAlunosAsyncByProfessorId(ProfessorId, true);
 
                 return Ok(result);
             }
@@ -130,7 +130,7 @@ namespace project_school_api.Controllers
 
                 if (await _repo.SaveChangesAsync())
                 {
-                    aluno = await _repo.GetAlunoAsyncById(alunoId, true);
+                    return Ok();
 
                 }
             }
